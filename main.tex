@@ -9,9 +9,13 @@
 \mail{wojciech1sadowski@gmail.com}
 \github{github.com/szynka12}
 \linkedin{linkedin.com/in/w1sadowski/}
-\personal{Ambitious and hard-working engineer interested in numerical analysis and oriented on applying it to real-world problems. Always open for new challenges and opportunities to broaden my set of skills. I enjoy working in interdisciplinary teams, with people who share similar ideas and attitude to technology.}
+\gscholar{scholar.google.com/citations?user=z_kUZkIAAAAJ&hl=en}
+\researchgate{researchgate.net/profile/Wojciech-Sadowski-3?ev=hdr_xprf}
+\personal{Ambitious, passionate and hard-working engineer focused on fluid mechanics, numerical analysis and the application of both to real-world problems. Open for new challenges and opportunities to broaden my horizons.}
 \def \WUT {Warsaw University of Technology}
 \def \MEiL {Faculty of Power and Aeronautical Engineering}
+\def \RUB {Ruhr University Bochum}
+\def \LSTTF {Chair of Thermal Turbomachinery and Aero Engines}
 
 \newcommand{\skill}[2]{%
   {#1} \hfill \comment{{#2}}
@@ -31,140 +35,325 @@
 
 % \raggedbottom
 
-\def \addspace {0.0em}
-\usepackage[official]{eurosym}
+\def \addspace {0.3em}
+\def \parspace {0.5em}
 
 \begin{document}
-%\info{}
 \infolr{}
 
-\vspace{0.4em}
+\vspace{0.5em}
+\leftright{%
+	\begin{cvsection}{Work experience}
+		\begin{entry}{Researcher}{\hfill \comment{\normalsize{\textit{since Nov. 2020}}}}
+			\comment{\itshape\small\RUB, \LSTTF} \par
+			{%
+				Working as a researcher in the project
+				\href{https://bulk-reaction.de/}{Bulk--Reaction} (SFB/TRR 287) aiming
+				at improving the current tools for \textbf{simulation and designing
+					packed-bed reactors}.\par
+				\vspace{\parspace}
+				Focusing on \textbf{gas flows through a packed bed}---applying
+				\textbf{LES and DNS} to study the flow at the microscale---% and on the
+				use of \textbf{upscaling and explicit filtering} to derive better
+				models for macroscale description of the gaseous flow through the
+				particle assembly. The research has resulted in 3 publications and 4
+				conference presentations.\par
+				\vspace{\parspace}
+				Developed a \textbf{high-performance explicit filtering library} for
+				accurate determination of macroscale properties from scale-resolving
+				simulations.\par
+				\vspace{\parspace}
+				Took part in \textbf{writing two successful proposals} (2nd funding period of
+				the SFB 287 and computing power on the SuperMUC-NG cluster). \par
+				\vspace{\parspace}
+				An active member of \textbf{Research Data Management} pilot group.\par
+				\vspace{\parspace}
+				Supervising master students, conducting exercises, helping with
+				lectures, administering of the chair Linux computers and maintenance of
+				the cluster\par
+			}
+
+		\end{entry}
+		\begin{entry}{Project leader}{\hfill \comment{\normalsize{\textit{Sept. 2019 - Sep. 2020}}}}
+			\comment{\itshape\small{}The Institute of Applied Research of the Warsaw University of Technology}\par
+
+			{%
+				Led a research project aimed at \textbf{improving of the accuracy of 3D
+					printing in SLS technology}, resulting in a specialized coupled
+				\textbf{structural/thermal code predicting deformation of printed
+					parts}.\par
+				\vspace{\parspace}
+				Coordinated modelling and development work of three researchers.\par
+				\vspace{\parspace}
+				Conducted detailed simulations of \textbf{natural convection
+					inside the printer} and the survey of accuracy requirements reported
+				by the end users of SLS printing technology we performed.
+			}
+
+		\end{entry}
+		\begin{entry}{CFD Engineer / Developer}{\hfill \comment{\normalsize{\textit{Dec. 2017 - Sep. 2020}}}}
+			\comment{\itshape\small{}QuickerSim Ltd.}\par
+			{%
+				Implemented \textbf{FEM solver employing geometrically exact beam
+					elements} for non-linear structural analyses (including linear or
+				non-linear buckling). Conducted industrial-grade \textbf{analysis of
+					slotted pressure filters} using the solver.\par
+				\vspace{\parspace}
+				\textbf{Implemented RANS turbulence models in the in-house FEM-based
+					CFD solver.} Solver was used for several projects, including
+				analyses of cyclone filters and HVAC flows.\par
+				\vspace{\parspace}
+				Implemented \textbf{stabilization methods in Galerkin FEM} for
+				convection dominated problems framework. \par
+				\vspace{\parspace}
+				Designed and implemented the modelling and numerical core of a \textbf{toolbox
+					for the oil \& gas extraction studies}. Supervised further development of the code.\par
+				\vspace{\parspace}
+				Performed the \textbf{analysis of flow-induced noise using LES and
+					Lattice-Boltzmann method} for research and development of hearing aids.\par
+				\vspace{\parspace}
+				Performed the study of \textbf{blood flow in a preliminary design of an
+					artificial, 3D-printed pancreas}, to guide the design process.\par
+				\vspace{\parspace}
+				Analysed the \textbf{flow of cellular material inside the 3D-printer, to
+					establish a range of safe printing rate,} which resulted in a scientific publication.\par
+			}
+		\end{entry}
+		% \begin{entry}{Intern}{\hfill \comment{\normalsize{\textit{Sept. 2017 - Dec. 2017}}}}
+		% 	Bosch, Product Life Management\par
+		% 	{\small\itshape%
+		% 		Provided \textbf{technical support for CAD and CAM software} users, beta-tested
+		% 		new versions of CAD/CAM software and administrated PLM data.\par
+		% 	}
+		% \end{entry}
+	\end{cvsection}
+}{%
+	\begin{cvsection}{Education}
+		\begin{entry}{PhD}{Mechanical Engineering}
+			\\%
+			\RUB, \LSTTF  \par
+			%
+			{\small%
+				\comment{\textit{since Nov. 2020 (planned defence Nov. 2025) }}
+				\comment{\textbf{Thesis:} \textit{\say{Mesoscopic modelling of porous-fluid interface:
+						insights from particle-resolved simulations}}}
+				\comment{\textbf{Supervisor:} prof. dr. Francesca di Mare}
+			}
+			% \comment{\textbf{GPA:} \textit{4.33}\hfill (scale: \textit{2.0}-\textit{5.0}; higher is better)}
+			%
+		\end{entry}
+		\begin{entry}{M. Eng.}{Mechanical Engineering}
+			\\%
+			\WUT, \MEiL  \par
+			%
+			{\small%
+				\comment{\textit{Feb. 2018 - Sept. 2019}}
+				\comment{\textbf{Thesis:} \textit{\say{Assessment of an algebraic intermittency model for separation-induced transition}}}
+				\comment{\textbf{Supervisor:} prof. dr. Sławomir Kubacki}
+			}
+			% \comment{\textbf{GPA:} \textit{4.33}\hfill (scale: \textit{2.0}-\textit{5.0}; higher is better)}
+			%
+		\end{entry}
+		%
+		\begin{entry}{B. Eng.}{Robotics,}
+			\\%
+			\WUT, \MEiL  \par
+			%
+			{\small%
+				\comment{\textit{Sept. 2014 - Feb. 2018}}
+				\comment{\textbf{Thesis:} \textit{\say{Trajectory planning and obstacle avoidance in cluttered environment}}}
+				\comment{\textbf{Supervisor:} prof. dr. Marek Wojtyra}
+				% \comment{\textbf{GPA:} \textit{4.07}\hfill (scale: \textit{2.0}-\textit{5.0}; higher is better)}
+			}
+			%
+		\end{entry}
+	\end{cvsection}
+	\begin{cvsection}{Research interests}
+		\textbf{Flows in porous materials}\par
+		{\itshape\comment{%
+			I am studying laminar and turbulent flow behaviour at the microscale to
+			understand how pore-level dynamics impact macro scale transport in
+			complex systems. The behaviour of the fluid at the porous-fluid
+			interface, including the properties of turbulence, dispersion and
+			porous-induced drag are the main focus of my work.
+			}}\par
+		\vspace{\parspace}
+		\textbf{Upscaling methods}\par
+		{\itshape\comment{%
+			I am developing and applying upscaling methods, including Large Eddy
+			Simulation and Volume Averaging Method, to improve currently used
+			closures for flows in porous materials---in particular at the
+			porous–fluid interface, as these two modelling strategies intersect
+			there.
+			}}\par
+
+	\end{cvsection}
+	\vspace{\parspace}
+	\begin{cvsection}{Student activities}
+		\vspace{\parspace}
+		\textbf{Dynamics Engineer}{\hfill \comment{\normalsize{\textit{Oct. 2016 - Sept. 2017}}}}
+		{\small Hyper Poland University Team}\par
+		{\small\itshape%
+			\comment{Designed and constructed first Polish Hyperloop prototype,
+			\textbf{coordinated mechanical assembly and designed lateral
+				stabilizers}, implemented \textbf{dynamic model of magnetic levitation
+				suspension} in Matlab \& Simulink and Adams.}\par
+		}
+		\vspace{\parspace}
+		\textbf{Mechanical Engineer}{\hfill \comment{\normalsize{\textit{Oct. 2015 - Jun. 2018}}}}
+		{\small Students Association of Vehicle Aerodynamics}\par
+
+		{\small\itshape%
+			\comment{Constructed \textbf{extremely fuel efficient vehicles Kropelka 2.0 and PAKS},
+			coordinated mechanical team of Kropelka 2.0 and
+			\textbf{led the drive train redesign.}}
+		}
+
+	\end{cvsection}
+
+}
 
 \leftright{%
-  \begin{cvsection}{Work experience}
-    \begin{entry}{Project leader}{\hfill \comment{\normalsize{\textit{since Sept. 2019}}}}
-      The Institute of Applied Research of the Warsaw University of Technology, QuickerSim Ltd.\par
-      \begin{itemize}
-        \item Leading a joint research project (budget: approx. 80.000\euro{}) concerning the increase of accuracy of 3D printing in SLS technology by the means of coupled thermal and structural analyses.
-        \item Coordinating the team consisting of three engineers.
-        \item Running CFD simulations in commercial software and writing specialised coupled thermal/structural numerical code for the project.
-      \end{itemize}
-    \end{entry}
-    \vspace{\addspace}
-  \begin{entry}{CFD Engineer / Developer}{\hfill \comment{\normalsize{\textit{since Dec. 2017}}}}
-      QuickerSim Ltd.
-      \begin{itemize}
-        \item Implemented Finite Element Method solver employing geometrically exact beam elements for structural analyses with small or large deformations and linear or non-linear buckling simulations.
-          Conducted industrial-grade analysis of pressure filters with the aforementioned solver.
-        \item Implemented various RANS turbulence models (e.g.\ Chien \(k-\varepsilon\), Wilcox \(k-\omega\)) in QuickerSim in-house Finite Element Method based CFD solver adopted in industry and academia.
-          Validated implemented models against established theoretical and experimental results.
-        \item Conducted analysis of flow-induced noise using Large Eddy Simulation by means of Lattice-Boltzmann method for research and development of hearing aids.
-        \item Simulated blood flow for artificial organ research and development.
-        \item Implemented various stabilisation methods for CFD in Finite Element Method framework (e.g. Flux Corrected Transport). 
-      \end{itemize}
-    \end{entry}
-    \vspace{\addspace}
-    \begin{entry}{Intern}{\hfill \comment{\normalsize{\textit{Sept. 2017 - Dec. 2017}}}}
-      Bosch, Product Life Management
-      \begin{itemize}
-        \item Provided technical support for CAD and CAM software users in various Bosch departments around the globe.
-        \item Beta-tested new versions of CAD/CAM software.
-        \item Administrated PLM data.
-      \end{itemize}
-    \end{entry}
-    \vspace{\addspace}
-    \begin{entry}{Vehicle Dynamics Engineer}{\hfill \comment{\normalsize{\textit{Oct. 2016 - Sept. 2017}}}}
-      Hyper Poland University Team
-      \begin{itemize}
-        \item Designed and constructed first polish Hyperloop pod prototype.
-        \item Coordinated mechanical assembly of the prototype.
-        \item Implemented Hyperloop prototype dynamic model in Matlab and Simulink.
-        \item Designed and manufactured prototype lateral stabilizers.
-      \end{itemize}
-    \end{entry}
-    \vspace{\addspace}
-    \begin{entry}{Mechanical Engineer}{\hfill \comment{\normalsize{\textit{Oct. 2015 - Jun. 2018}}}}
-      Students Association of Vehicle Aerodynamics
-      \begin{itemize}
-        \item Constructed extremely fuel efficient vehicles Kropelka 2.0 and PAKS.
-        \item Coordinated mechanical team (5 people) of Kropelka 2.0 project.
-        \item Improved and redesigned the drivetrain of Kropelka 2.0.
-      \end{itemize}
-    \end{entry}
-  \end{cvsection}
+	\begin{cvsection}{Publications}
+		\vspace{\parspace}
+		\textbf{Sadowski, W.}, \& di Mare, F. (2023).
+		\textit{Investigation of the porous drag and permeability at the porous-fluid interface: Influence of the filtering parameters on Darcy closure.}
+		Particuology, 78, 122-135. \url{https://doi.org/10.1016/j.partic.2022.09.010}
+
+		\vspace{0.5em}
+		\textbf{Sadowski, W.}, Sayyari, M., di Mare, F., \& Marschall, H. (2023).
+		\textit{Large eddy simulation of flow in porous media: Analysis of the commutation error of the double-averaged equations.}
+		Physics of Fluids, 35(5), 055121. \url{https://doi.org/10.1063/5.0148130}
+
+		\vspace{0.5em}
+		\textbf{Sadowski, W.}, Sayyari, M., \& di Mare, F. (2023).
+		\textit{Large-eddy simulation of a channel flow over an irregular porous matrix.}
+		PAMM, e202300095. \url{https://doi.org/10.1002/pamm.202300095}
+
+		\vspace{0.5em}
+		\textbf{Sadowski, W.}, Sayyari, M., Di Mare, F., Velten, C., \& Zähringer, K. (2024).
+		\textit{Particle-resolved simulations and measurements of the flow through a uniform packed bed.}
+		Physics of Fluids, 36(2), 023330. \url{https://doi.org/10.1063/5.0188247}
+
+		\vspace{0.5em}
+		\textbf{Sadowski, W.}, Lo Presti, F., \& di Mare, F. (2023).
+		\textit{Assessment of hybrid turbulence models for the simulation of ribbed channel with heat transfer.}
+		Proceedings of 15th European Conference on Turbomachinery Fluid Dynamics \& Thermodynamics. \url{https://doi.org/10.29008/ETC2023-312}
+
+		\vspace{0.5em}
+		Lea, B., Presti, F. L., \textbf{Sadowski, W.}, \& di Mare, F. (2025).
+		\textit{Detached Eddy Simulation of a Radial Turbine operated with supercritical CO2.}
+		Proceedings of 16th European Conference on Turbomachinery Fluid Dynamics \& Thermodynamics. \comment{\itshape{}(accepted for publication)}
+
+		\vspace{0.5em}
+		Schulze, S., Presti, F. L., \textbf{Sadowski, W.}, \& di Mare, F. (2025).
+		\textit{Effects of Streamwise Oriented Riblets on an LPT Blade: A Numerical Study.}
+		Proceedings of 16th European Conference on Turbomachinery Fluid Dynamics \& Thermodynamics. \comment{\itshape{}(accepted for publication)}
+
+		\vspace{0.5em}
+		Lea, B., \textbf{Sadowski, W.}, \& di Mare, F. (2025).
+		\textit{Evaluating differences between the computable and ﬁltered state variables in supercritical CO2.}
+		Proceedings of the 5th International Seminar on Non-Ideal Compressible Fluid Dynamics for Propulsion and Power. \comment{\itshape{}(accepted for publication)}\par
+		\vspace{\parspace}
+
+	\end{cvsection}
+	\begin{cvsection}{Conference presentations}
+		\textbf{Sadowski, W.}, \& di Mare, F. (2022).
+		\textit{Investigation of the porous drag and permeability at the porous-fluid interface: Influence of the filtering parameters on Darcy closure.}
+		1st International Workshop on Reactive Particle-Gas Systems, Bochum, Germany
+
+		\vspace{0.5em}
+		\textbf{Sadowski, W.}, Sayyari, M., \& di Mare, F. (2023).
+		\textit{Large-eddy simulation of a channel flow over an irregular porous matrix.}
+		93rd Annual Meeting of the International Association of Applied Mathematics and Mechanics (GAMM), Dresden, Germany
+
+		\vspace{0.5em}
+		\textbf{Sadowski, W.}, Lo Presti, F., \& di Mare, F. (2023).
+		\textit{Assessment of hybrid turbulence models for the simulation of ribbed channel with heat transfer.}
+		15th European Conference on Turbomachinery Fluid Dynamics \& Thermodynamics, Budapest, Hungary
+
+		\vspace{0.5em}
+		\textbf{Sadowski. W} (2024).
+		\textit{Towards seamless modelling of flows over porous media: insights from particle-resolved simulations}.
+		Ames Research Centre, Entry System and Technology Division seminar
+
+		\vspace{0.5em}
+		\textbf{Sadowski, W.}, Demir, H., \& di Mare, F. (2025).
+		\textit{Mean flow properties in a packed bed with varying  geometry.}
+		2nd International Workshop on Reacting Particle-Gas Systems, Magdeburg, Germany
+
+	\end{cvsection}
 }{%
-  \begin{cvsection}{Education}
-    \begin{entry}{M. Eng.}{Mechanical Engineering}
-      \\%
-      \WUT, \MEiL  \par
-      %
-      \comment{\textit{Feb. 2018 - Sept. 2019}}
-      \comment{\textbf{Thesis:} \textit{Assessment of an algebraic intermittency model for separation-induced transition}}
-      \comment{\textbf{GPA:} \textit{4.33}\hfill (scale: \textit{2.0}-\textit{5.0}; higher is better)}
-      %
-    \end{entry}
-    %
-    \begin{entry}{B. Eng.}{Robotics,}
-      \\%
-      \WUT, \MEiL  \par
-      %
-    \comment{\textit{Sept. 2014 - Feb. 2018}}
-      \comment{\textbf{Thesis:} \textit{Trajectory planning and obstacle avoidance in cluttered environment}}
-    \comment{\textbf{GPA:} \textit{4.07}\hfill (scale: \textit{2.0}-\textit{5.0}; higher is better)}
-      %
-    \end{entry}
-  \end{cvsection}
-  
-  \begin{cvsection}{Achievements}
-    \achi{Ministry of Science and Higher Education Scholarship for Scientific Achievements}{March 2018}
-    \achi{Finalist of Hyperloop Pod Competition II}{Los Angeles, August 2017}
-    \achi{3rd place, Kropelka 2.0 project, Shell Eco-Marathon Challenger}{Le Mans, 2018}
-    \achi{2nd place, PAKS project, Shell Eco-Marathon Challenger}{Le Mans, 2016}
-    \vspace{0.3em}
-  \end{cvsection}
 
-  \begin{cvsection}{Skills}
-  \begin{skillhead}{Engineering and Science}
-    \skill{Turbulence modelling}{very good}
-    \skill{CFD}{good}
-    \skill{Finite Element Method}{very good}
-  \end{skillhead}
-  \begin{skillhead}{Programming}
-    \skill{C/C++}{good}
-    \skill{Matlab}{very good}
-    \skill{Python}{good}
-  \end{skillhead}
-  \begin{skillhead}{CAE software}
-    \skill{OpenFOAM}{very good}
-    \skill{Ansys Mechanical}{good}
-    \skill{Ansys Fluent}{good}
-    \skill{ParaView}{very good}
-  \end{skillhead}
-  \begin{skillhead}{CAD software}
-    \skill{Siemens NX}{very good}
-    \skill{Autodesk Inventor}{good}
-    \skill{Solidworks}{intermediate}
-  \end{skillhead}
-  \begin{skillhead}{Miscellaneous}
-    \skill{\LaTeX}{very good}
-    % \skill{Microsoft Office}{good}
-    \skill{Linux-based systems}{intermediate}
-  \end{skillhead}
-  \vspace{0.3em}
-\end{cvsection}
+	\begin{cvsection}{Teaching and supervisory work}
+		\begin{entry}{Teaching}{}
+			\par
+			Preparation of material and conducting exercises for a graduate course
+			\textit{Numerical Methods for Internal Aerodynamics} in 2024 and 2025.\par
+			\vspace{0.25em}
+			Conducting an introductory lecture for an undergraduate course
+			\textit{Computer simulation of fluid flows} in 2024.\par
+			\vspace{0.25em}
+			Help with conducting and evaluation of the exams from \textit{Numerical
+				Methods for Internal Aerodynamics} and \textit{Computer simulation of
+				fluid flows}.\par
+			\vspace{0.25em}
+			Conducting a workshop session for members of \textit{Bulk--Reaction}
+			project about the use of Git and Gitlab for code and
+			research data management.\par
+		\end{entry}
+		\begin{entry}{Supervision}{}
+			\par
+			\textbf{Master thesis:} \textit{Applying OpenFOAM to simulate turbulent ﬂows in
+				domains partly occupied by porous media}\par
+			\vspace{0.25em}
+			\textbf{Master thesis:} \textit{Implementation and Validation of a Low-Dissipation
+				Solver for Scale-Resolving Simulations in OpenFOAM}\par
 
-\begin{cvsection}{Languages}
-  \skill{English}{very good (level C1)}
-  \skill{German}{intermediate (level B1)}
-  \skill{Polish}{native}
-  \vspace{0.3em}
-\end{cvsection}
+		\end{entry}
 
-\begin{cvsection}{Personal interests}
-  Sailing, science-fiction literature
-\end{cvsection}
+	\end{cvsection}
+	\begin{cvsection}{Awards}
+		\vspace{\parspace}
+		{%
+			\achi{Grant for computation time on SuperMUC-NG, approx. 13 Mcore-h}{January 2022}
+			\achi{Ministry of Science and Higher Education Scholarship for Scientific Achievements}{March 2018}
+			\achi{Finalist of Hyperloop Pod Competition II}{Los Angeles, August 2017}
+			\achi{3rd place, Kropelka 2.0 project, Shell Eco-Marathon Challenger}{Le Mans, 2018}
+			\achi{2nd place, PAKS project, Shell Eco-Marathon Challenger}{Le Mans, 2016}
+		}
+		\vspace{0.3em}
+	\end{cvsection}
+	\begin{cvsection}{Skills}
+		\begin{skillhead}{Continuum mechanics and numerics}
+			\small\itshape
+			(Computational) fluid mechanics, turbulence modelling (RANS/LES/DNS),
+			flow in porous media (micro and macro scale, upscaling), structural
+			mechanics, heat transfer, Finite Element/Volume Methods\par
+			% \skill{Turbulence modelling}{very good}
+			% \skill{CFD}{good}
+			% \skill{Finite Element Method}{very good}
+		\end{skillhead}
+		\begin{skillhead}{Programming and computer science}
+			\small\itshape
+			C/C++, Matlab, python, Julia, bash, \LaTeX, Linux systems, optimization \par
+		\end{skillhead}
+		\begin{skillhead}{CAE software}
+			\small\itshape
+			OpenFOAM, Ansys Fluent \& Mechanical, ParaView\par
+		\end{skillhead}
+	\end{cvsection}
+	\begin{cvsection}{Languages}
+		\skill{English}{very good (level C1)}
+		\skill{German}{intermediate (level B1)}
+		\skill{Polish}{native}
+		\vspace{0.3em}
+	\end{cvsection}
+
+	\begin{cvsection}{Personal interests}
+		Sailing, science-fiction literature
+	\end{cvsection}
 }
 
 
-  
 \end{document}
