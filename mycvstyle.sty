@@ -180,12 +180,13 @@
 \newenvironment{cvsection}[1]{%
 	\vspace{0.5em}
 	\noindent{\Large {#1} \xrfill[0.3em]{1pt} }\par
-	\hfill
+	% \hspace{0.2cm}
+	% \noindent
 	%\xdef\tpd{\the\prevdepth}
-	\begin{minipage}{\dimexpr\textwidth-0.5cm}
-		}{%
-		\par
-	\end{minipage}
+	% \begin{minipage}{\dimexpr\textwidth-0.5cm}
+}{%
+	\par
+	% \end{minipage}
 }
 
 \newenvironment{entry}[2]{%

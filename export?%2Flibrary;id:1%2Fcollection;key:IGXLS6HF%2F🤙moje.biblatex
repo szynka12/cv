@@ -1,0 +1,294 @@
+@inproceedings{breugem2004,
+  title = {Direct {{Numerical Simulations}} of Plane Channel Flow over a 3d Cartesian Grid of Cubes},
+  booktitle = {Proceedings of {{ICAPM}} 2004},
+  author = {Breugem, W. P. and Boersma, Bendiks-Jan and Uittenbogaard, Rob},
+  date = {2004-01-01},
+  eventtitle = {Applications of  {{Porous Media}} ({{ICAPM}} 2004)},
+  file = {/home/szynka/Zotero/storage/ILZSBB2X/DIRECT_NUMERICAL_SIMULATIONS_OF_PLANE_CHANNEL_FLOW.pdf}
+}
+
+@article{breugem2005,
+  title = {Direct Numerical Simulations of Turbulent Flow over a Permeable Wall Using a Direct and a Continuum Approach},
+  author = {Breugem, W. P. and Boersma, B. J.},
+  date = {2005-02},
+  journaltitle = {Physics of Fluids},
+  shortjournal = {Physics of Fluids},
+  volume = {17},
+  number = {2},
+  pages = {025103},
+  issn = {1070-6631, 1089-7666},
+  doi = {10.1063/1.1835771},
+  url = {https://pubs.aip.org/aip/pof/article/895523},
+  urldate = {2023-06-21},
+  langid = {english},
+  keywords = {continous-interface,DNS,read},
+  file = {/home/szynka/Zotero/storage/7B4ZTMBJ/Breugem i Boersma - 2005 - Direct numerical simulations of turbulent flow ove.pdf}
+}
+
+@article{breugem2006,
+  title = {The Influence of Wall Permeability on Turbulent Channel Flow},
+  author = {Breugem, W. P. and Boersma, B. J. and Uittenbogaard, R. E.},
+  date = {2006-09},
+  journaltitle = {Journal of Fluid Mechanics},
+  shortjournal = {J. Fluid Mech.},
+  volume = {562},
+  pages = {35},
+  issn = {0022-1120, 1469-7645},
+  doi = {10.1017/S0022112006000887},
+  url = {http://www.journals.cambridge.org/abstract_S0022112006000887},
+  urldate = {2022-07-04},
+  langid = {english},
+  file = {/home/szynka/Zotero/storage/Z24B4856/Breugem et al. - 2006 - The influence of wall permeability on turbulent ch.pdf}
+}
+
+@article{chandesris2013,
+  title = {Direct Numerical Simulation of Turbulent Heat Transfer in a Fluid-Porous Domain},
+  author = {Chandesris, M. and D'Hueppe, A. and Mathieu, B. and Jamet, D. and Goyeau, B.},
+  date = {2013-12-01},
+  journaltitle = {Physics of Fluids},
+  volume = {25},
+  number = {12},
+  pages = {125110},
+  issn = {1070-6631, 1089-7666},
+  doi = {10.1063/1.4851416},
+  url = {https://pubs.aip.org/pof/article/25/12/125110/257994/Direct-numerical-simulation-of-turbulent-heat},
+  urldate = {2024-02-05},
+  abstract = {Turbulent heat transfer in a channel partially filled by a porous medium is investigated using a direct numerical simulation of an incompressible flow. The porous medium consists of a three-dimensional Cartesian grid of cubes, which has a relatively high permeability. The energy equation is not solved in the cubes. Three different heating configurations are studied. The simulation is performed for a bulk Reynolds number Reb = 5500 and a Prandtl number Pr = 0.1. The turbulent flow quantities are compared with the results of Breugem and Boersma [“Direct numerical simulations of turbulent flow over a permeable wall using a direct and a continuum approach,” Phys. Fluids\hphantom{,}17, 025103 (2005)] to validate the numerical approach and macroscopic turbulent quantities are analyzed. Regarding the temperature fields, original results are obtained. The temperature fields show an enhanced turbulent heat transfer just above the porous region compared to the solid top wall, which can be related to the large vortical structures that develop in this region. Furthermore, these large structures induce pressure waves inside the porous domain which are responsible of large temperature fluctuations deep inside the porous region where the flow is laminar. Finally, macroscopic turbulent quantities are computed to get reference results for the development of macroscopic turbulent heat transfer models in fluid-porous domain.},
+  langid = {english},
+  keywords = {DNS,interface,PSPH,read},
+  file = {/home/szynka/Zotero/storage/TMTVS9VF/Chandesris et al. - 2013 - Direct numerical simulation of turbulent heat tran.pdf;/home/szynka/Zotero/storage/YPUFEI2A/temp.csv}
+}
+
+@article{gorges2024,
+  title = {Comparing Two {{IBM}} Implementations for the Simulation of Uniform Packed Beds},
+  author = {Gorges, Christian and Brömmer, Maximilian and Velten, Christin and Wirtz, Siegmar and \{Illana Mahiques\}, Enric and Scherer, Viktor and Zähringer, Katharina and Van Wachem, Berend},
+  date = {2024-03},
+  journaltitle = {Particuology},
+  shortjournal = {Particuology},
+  volume = {86},
+  pages = {1--12},
+  issn = {16742001},
+  doi = {10.1016/j.partic.2023.04.006},
+  url = {https://linkinghub.elsevier.com/retrieve/pii/S1674200123001049},
+  urldate = {2023-09-19},
+  abstract = {Nowadays, the design of fixed packed bed reactors still relies on empirical correlations, which, especially for small tube to particle diameter ratios, are mostly too inaccurate because of the presence of wall effects. Therefore, the simulation of fixed packed bed reactors plays an important role to predict and control the flow and process parameters in such, nowadays and in the future. Because of its straightforward applicability to non-uniform packings with particles of arbitrary shapes, the immersed boundary method (IBM) has advantages over other numerical methods and is used more and more frequently. This paper compares two approaches of IBMs for the simulation of fixed bed reactors with spherical shaped particles. The classic, smooth approach is compared to the straightforward to implement blocked-off method for velocity fields above the fixed bed for particle Reynolds numbers of 300 and 500. Results from experimental inline PIV-measurements of the reactor to be simulated serve as a basis for comparison. Very good agreement with the experiment is found for both simulation methodologies with higher resolutions, considering the more stable flow at a particle Reynolds number of 300. Differences in the different IBM approaches occurred for the more unsteady flow at a particle Reynolds number of 500. Compared to the blocked-off method, the smooth IBM reflects the formation of additional jets and recirculation zones better right above the bed, though increasing the fluid mesh resolution improves the accuracy of the blocked-off method. Overall, a more diffusive behaviour is found for the blocked-off simulations due to the stairstep representation, which is avoided by using interpolation stencils as in the smooth IBM. With higher mesh refinement in the blocked-off IBM this effect can be reduced, but this also increases the computational effort.},
+  langid = {english},
+  file = {/home/szynka/Zotero/storage/F29WYC5E/Gorges et al. - 2024 - Comparing two IBM implementations for the simulati.pdf}
+}
+
+@article{kuwata2016,
+  title = {Lattice {{Boltzmann}} Direct Numerical Simulation of Interface Turbulence over Porous and Rough Walls},
+  author = {Kuwata, Y. and Suga, K.},
+  date = {2016-10},
+  journaltitle = {International Journal of Heat and Fluid Flow},
+  shortjournal = {International Journal of Heat and Fluid Flow},
+  volume = {61},
+  pages = {145--157},
+  issn = {0142727X},
+  doi = {10.1016/j.ijheatfluidflow.2016.03.006},
+  url = {https://linkinghub.elsevier.com/retrieve/pii/S0142727X16300479},
+  urldate = {2021-12-13},
+  langid = {english},
+  file = {/home/szynka/Zotero/storage/CIDMY574/Kuwata i Suga - 2016 - Lattice Boltzmann direct numerical simulation of i.pdf}
+}
+
+@article{lea,
+  title = {Detached {{Eddy Simulation}} of a {{Radial Turbine}} Operated with Supercritical {{CO2}}},
+  author = {Lea, Benedikt and Presti, Federico Lo and Sadowski, Wojciech and family=Mare, given=Francesca, prefix=di, useprefix=true},
+  abstract = {This paper presents the first-of-its-kind full-crown Detached-Eddy Simulation (DES) of a radial turbine designed for the operation in a supercritical CO2-based power cycle. The simulation domain not only models the main blade passage, but also the exhaust diffuser and the rotor disk cavities. Thermophysical properties of CO2 are modelled with the Span-Wagner reference equation which is evaluated by a highly efficient spline-based table look-up method. The hybrid RANS/LES models, using Improved Delayed Detached-Eddy Simulation approach, are validated in a flow around a circular cylider at Re = 3900, obtaining excellent agreement with other experimental and numerical studies. A preliminary assessment of the grid quality in the context of DES is performed for the full-crown simulation, and characteristic flow features of the main passage and cavity flow are highlighted and discussed.},
+  langid = {english},
+  file = {/home/szynka/Zotero/storage/S9SGVPBR/Lea et al. - Detached Eddy Simulation of a Radial Turbine operated with supercritical CO2.pdf}
+}
+
+@article{lea2024,
+  title = {Evaluating Differences between the Computable and Filtered State Variables in Supercritical {{CO2}}},
+  author = {Lea, Benedikt and Sadowski, Wojciech and family=Mare, given=Francesca, prefix=di, useprefix=true},
+  abstract = {Supercritical CO2-based power cycles require consideration of non-ideal thermodynamics and compressible turbulence. In present work, we study a decay of homogeneous isotropic turbulence with eddy shocklets using Direct Numerical Simulation. We consider both ideal gas and use Span and Wagner equation of state to model supercritical CO2. The results are explicitly filtered, allowing for evaluation of a previously untested, yet universally accepted assumption, that the computable temperature and pressure (outputs of the equation of state using the available filtered quantities) are good approximations for the true filtered temperature and pressure. For the investigated thermodynamic state, the approximation does not result in a great error, however it does influence both the mean and the shape of PDF of both variables.},
+  langid = {english},
+  file = {/home/szynka/Zotero/storage/HBZYERTA/Lea et al. - Evaluating differences between the computable and .pdf}
+}
+
+@article{neeraj2023,
+  title = {Modeling {{Gas Flows}} in {{Packed Beds}} with the {{Lattice Boltzmann Method}}: {{Validation Against Experiments}}},
+  shorttitle = {Modeling {{Gas Flows}} in {{Packed Beds}} with the {{Lattice Boltzmann Method}}},
+  author = {Neeraj, Tanya and Velten, Christin and Zähringer, Katharina and Namdar, Reza and Varnik, Fathollah and Thévenin, Dominique and Hosseini, Seyed Ali},
+  date = {2023-08},
+  journaltitle = {Flow, Turbulence and Combustion},
+  shortjournal = {Flow Turbulence Combust},
+  volume = {111},
+  number = {2},
+  pages = {463--491},
+  issn = {1386-6184, 1573-1987},
+  doi = {10.1007/s10494-023-00444-z},
+  url = {https://link.springer.com/10.1007/s10494-023-00444-z},
+  urldate = {2023-09-29},
+  abstract = {This study aims to validate the lattice Boltzmann method and assess its ability to accurately describe the behavior of gaseous flows in packed beds. To that end, simulations of a model packed bed reactor, corresponding to an experimental bench, are conducted, and the results are directly compared with experimental data obtained by particle image velocimetry measurements. It is found that the lattice Boltzmann solver exhibits very good agreement with experimental measurements. Then, the numerical solver is further used to analyze the effect of the number of packing layers on the flow structure and to determine the minimum bed height above which the changes in flow structure become insignificant. Finally, flow fluctuations in time are discussed. The findings of this study provide valuable insights into the behavior of the gas flow in packed bed reactors, opening the door for further investigations involving additionally chemical reactions, as found in many practical applications.},
+  langid = {english},
+  file = {/home/szynka/Zotero/storage/EE8S99JA/Neeraj et al. - Modeling gas flows in packed beds with the lattice.pdf;/home/szynka/Zotero/storage/H4HR8538/Neeraj et al. - 2023 - Modeling Gas Flows in Packed Beds with the Lattice.pdf}
+}
+
+@article{sadowski2023,
+  title = {Large Eddy Simulation of Flow in Porous Media: {{Analysis}} of the Commutation Error of the Double-Averaged Equations},
+  shorttitle = {Large Eddy Simulation of Flow in Porous Media},
+  author = {Sadowski, W. and Sayyari, M. and Di Mare, F. and Marschall, H.},
+  date = {2023-05-01},
+  journaltitle = {Physics of Fluids},
+  volume = {35},
+  number = {5},
+  pages = {055121},
+  issn = {1070-6631, 1089-7666},
+  doi = {10.1063/5.0148130},
+  url = {https://pubs.aip.org/pof/article/35/5/055121/2890016/Large-eddy-simulation-of-flow-in-porous-media},
+  urldate = {2023-05-10},
+  abstract = {The continuum approach employing porous media models is a robust and efficient solution method in the area of the simulation of fixedbed reactors. This paper applies the double-averaging methodology to refine the continuum approach, opening a way to alleviate its main limitations: space-invariant averaging volume and inaccurate treatment of the porous/fluid interface. The averaging operator is recast as a general space–time filter allowing for the analysis of commutation errors in a classic large eddy simulation (LES) formalism. An explicit filtering framework has been implemented to carry out an a posteriori evaluation of the unclosed terms appearing in the double-averaged Navier–Stokes (DANS) equations, also considering a space-varying filter width. Two resolved simulations have been performed. First, the flow around a single, stationary particle has been used to validate derived equations and the filtering procedure. Second, an LES of the turbulent flow in a channel partly occupied with a porous medium has been realized and filtered. The commutation error at the porous–fluid interface has been evaluated and compared to the prediction of two models. The significance of the commutation error terms is also discussed and assessed. Finally, the solver for DANS equations has been developed and used to simulate both of the studied geometries. The magnitude of the error associated with neglecting the commutation errors has been investigated, and an LES simulation combined with a porous drag model was performed. Very encouraging results have been obtained indicating that the inaccuracy of the drag closure overshadows the error related to the commutation of operators.},
+  langid = {english},
+  file = {/home/szynka/Zotero/storage/MXQDWMF9/Sadowski et al. - 2023 - Large eddy simulation of flow in porous media Ana.pdf;/home/szynka/Zotero/storage/W39GSGFH/POF23-AR-01381.pdf}
+}
+
+@inproceedings{sadowski2023a,
+  title = {Assessment of Hybrid Turbulence Models for the Simulation of Ribbed Channel with Heat Transfer},
+  booktitle = {Proceedings of 15th {{European Conference}} on {{Turbomachinery Fluid}} Dynamics \& {{Thermodynamics}}},
+  author = {Sadowski, W and Lo Presti, F and family=Mare, given=F, prefix=di, useprefix=true},
+  date = {2023-04-24},
+  location = {Budapest, Hungary},
+  doi = {10.29008/ETC2023-312},
+  abstract = {Manufacturing periodic ribs in cooling channels is a widely used technique to enhance turbulent heat transfer. Examples of applications include cooling channels of gas turbine blades, heat exchangers and gas-cooled reactor fuel elements. Currently, the improvement of such systems is a relevant topic of industrial research and numerical simulations including heat transfer are of great importance. The heat transfer enhancing mechanism introduced by the ribs, is characterized by the periodic interruption of the growth of the boundary layer, inducing the formation of separation and reattachment zones. The prediction of separation zones is one of the main challenges in turbulence modelling, with some approaches failing to predict even the existence of such areas. Moreover, there is a wide consensus that RANS simulations are not capable of reproducing experimental results when it comes to the prediction of heat transfer. While in such cases the use of scale-resolving turbulence modelling approaches would be desirable, the computational cost is a major limitation in an industrial context. Moreover, cooling channels are typically part of larger configurations (e.g., in a gas turbine) so that the computational cost of the whole simulation has to be taken into account. It would be valuable to have a single modelling approach that is able to capture relevant physics in areas of interest while being less expensive than classical LES. Ideal candidates for this purpose is a wide range of hybrid RANS/LES approaches that has been developed over the years. These approaches try to bridge the robustness of time averaged equations in regions like boundary layers with accuracy of LES in separation regions. The most important factor for a successful hybrid RANS/LES computation is generating a numerical mesh with appropriate resolution for both RANS and LES regions. For RANS, an appropriate resolution is the one that guarantees mesh independence of results. Such criterion is not appropriate for LES, where a standard quality indicator is resolving at least of 80\% of turbulent energy. The problem is further complicated by the presence of a moving blurry interface region between the two formulations and different methods of blending two types of models together. Determining a proper mesh resolution for such simulations is still an open research topic. In the current work an LES simulation of the flow through a ribbed duct with heat transfer will be performed. The quality of the LES will be carefully verified using quality criteria based on e.g., total resolved turbulence energy, turbulence viscosity ratio. The mesh resolution required for an accurate scale-resolving simulation and its results will be used as a baseline reference for the study of hybrid models performance. Optimal meshing strategies for hybrid models, balancing numerical cost and modelling accuracy, will be discussed. Mesh sizing will be gradually increased globally and the performance of RANS/LES models will be assessed, including prediction of velocity, velocity fluctuations and heat transfer. In this context, the influence of local mesh refinement on main flow features (e.g. reattachment length) will also be tested.},
+  eventtitle = {15th {{European Conference}} on {{Turbomachinery Fluid}} Dynamics \& {{Thermodynamics}}},
+  langid = {english},
+  file = {/home/szynka/Zotero/storage/C3PBKSFE/Sadowski et al. - ASSESSMENT OF HYBRID TURBULENCE MODELS FOR THE SIM.pdf}
+}
+
+@article{sadowski2023b,
+  title = {Investigation of the Porous Drag and Permeability at the Porous-Fluid Interface: {{Influence}} of the Filtering Parameters on {{Darcy}} Closure},
+  shorttitle = {Investigation of the Porous Drag and Permeability at the Porous-Fluid Interface},
+  author = {Sadowski, Wojciech and family=Mare, given=Francesca, prefix=di, useprefix=true},
+  date = {2023-07},
+  journaltitle = {Particuology},
+  shortjournal = {Particuology},
+  volume = {78},
+  pages = {122--135},
+  issn = {16742001},
+  doi = {10.1016/j.partic.2022.09.010},
+  url = {https://linkinghub.elsevier.com/retrieve/pii/S1674200122002012},
+  urldate = {2023-01-23},
+  abstract = {The porous-fluid interface encompasses a region bridging the flow inside a porous medium and a freeflowing fluid. In the context of volume-averaged simulations, it can be described by a set of gradually changing parameters defining the porous medium, mainly porosity and permeability. In this paper, both the permeability and the porous-induced drag force are evaluated a-priori, by explicitly filtering a set of Particle-Resolved Simulations (PRS) of the flow in the channel partially occupied by the porous medium. Different porous matrices are considered and the influence of the geometry and filtering parameters on the macroscopic quantities is studied. Especially, the focus is placed on the requirements for the kernel type and size to perform filtering accurately, and their impact on the distribution of permeability at the interface. The performance of the typically used models for the permeability is compared to the explicitly filtered results. Lastly, a new model for permeability and the drag force is introduced, taking into account the information about the filtering size and non-uniformity of the velocity field. The model greatly improves the prediction of velocity at the porous-fluid interface and serves as a proof of concept that a successful porous drag model should strive to include information about both parameters.},
+  langid = {english},
+  keywords = {theory},
+  file = {/home/szynka/Zotero/storage/3KN5RIGU/Sadowski i di Mare - 2022 - Investigation of the porous drag and permeability .pdf;/home/szynka/Zotero/storage/UCLSL87T/Sadowski i di Mare - 2023 - Investigation of the porous drag and permeability .pdf}
+}
+
+@article{sadowski2023c,
+  title = {Large-Eddy Simulation of a Channel Flow over an Irregular Porous Matrix},
+  author = {Sadowski, Wojciech and Sayyari, Mohammed and Mare, Francesca Di},
+  date = {2023-11-03},
+  journaltitle = {PAMM},
+  shortjournal = {Proc Appl Math and Mech},
+  pages = {e202300095},
+  issn = {1617-7061, 1617-7061},
+  doi = {10.1002/pamm.202300095},
+  url = {https://onlinelibrary.wiley.com/doi/10.1002/pamm.202300095},
+  urldate = {2023-12-18},
+  abstract = {For turbulent flows in porous media, it is often assumed that the irregularity of the matrix would not affect the macroscopic, double-averaged (in time and space), parameters of turbulence. Hence, to improve currently used modelling techniques, the ongoing efforts of the community are focused on performing high-fidelity, scale-resolving simulations of flows in regular, periodically repeating porous structures. This approach allows for minimizing still large computational cost, however, it assumes that results obtained from those geometries are generalizable to more disordered configurations. We investigate this assumption numerically using large-eddy simulation and analyse the influence of the irregularity of the porous structure on turbulent characteristics in a fully turbulent flow in a channel half-filled with porous medium. The flow statistics are examined and compared between four simulations, a reference channel with regular three-dimensional porous matrix consisting of an array of cubes and three similar geometries created from randomly perturbing the positions of the cubes, with increasing mean value of cube displacement. We study doubleaveraged flow properties, the distributions of double-averaged Reynolds stress tensor, including the anisotropy of macroscopic turbulence and the drag force induced by the flow in the porous region of the channel. The results confirm the idea that the averaged characteristics, including the anisotropy of the stress tensor and the drag force, are not greatly influenced by the moderate perturbation to the geometry of the porous matrix. Additionally, the macroscopic turbulence seems to exhibit a high degree of anisotropy in the porous region and the adjacent boundary layer, suggesting that second-order closure could be an adequate modelling choice for such flows.},
+  langid = {english},
+  file = {/home/szynka/Zotero/storage/46WJIRE2/Sadowski et al. - 2023 - Large‐eddy simulation of a channel flow over an ir.pdf}
+}
+
+@article{sadowski2024,
+  title = {Particle-Resolved Simulations and Measurements of the Flow through a Uniform Packed Bed},
+  author = {Sadowski, Wojciech and Sayyari, Mohammed and Di Mare, Francesca and Velten, Christin and Zähringer, Katharina},
+  date = {2024-02-01},
+  journaltitle = {Physics of Fluids},
+  volume = {36},
+  number = {2},
+  pages = {023330},
+  issn = {1070-6631, 1089-7666},
+  doi = {10.1063/5.0188247},
+  url = {https://pubs.aip.org/pof/article/36/2/023330/3266626/Particle-resolved-simulations-and-measurements-of},
+  urldate = {2024-02-21},
+  abstract = {The present study focuses on the assessment of the performance of a finite volume method based, particle-resolved simulation approach to predict the flow through a model packed-bed consisting of 21 layers of spheres arranged in the body centered cubic packing. The unsteady flow developing in the freeboard is also considered. Two highly resolved large eddy simulation were preformed, for two Reynolds numbers, 300 and 500, based on the particle diameter, employing a polyhedral, boundary-conforming mesh. The geometry and the flow conditions are set to reproduce the flow conditions investigated in the experiment carried out by Velten and Z€ahringer [“Flow field characterisation of gaseous flow in a packed bed by particle image velocimetry,” Transp. Porous Media 150, 307 (2023)] using particle image velocimetry. The numerical results compare favorably with the measurements both inside and above the bed. The effect of differences arising between the physical and numerical configurations is thoroughly discussed alongside the impact of meshing strategy on the accuracy of the predictions.},
+  langid = {english},
+  file = {/home/szynka/Zotero/storage/AC9SM8EU/Sadowski et al. - 2024 - Particle-resolved simulations and measurements of .pdf}
+}
+
+@inproceedings{sadowski2025,
+  title = {{{TURBULENT FLOW OVER A PERMEABLE WALL UNDER A RANGE OF REYNOLDS NUMBERS}}},
+  author = {Sadowski, W and family=Mare, given=F, prefix=di, useprefix=true},
+  date = {2025},
+  eventtitle = {15th {{International ERCOFTAC Symposium}} on {{Engineering Turbulence Modelling}} and {{Measurements}} ({{ETMM-15}})},
+  langid = {english},
+  file = {/home/szynka/Zotero/storage/C7AECXF7/Sadowski and di Mare - TURBULENT FLOW OVER A PERMEABLE WALL UNDER A RANGE OF REYNOLDS NUMBERS.pdf}
+}
+
+@inproceedings{sadowski2025a,
+  title = {Mean Flow Properties in a Packed Bed with Varying  Geometry},
+  author = {Sadowski, Wojciech and Demir, Hakan and family=Mare, given=Francesca, prefix=di, useprefix=false},
+  date = {2025},
+  location = {Magdeburg},
+  eventtitle = {2nd {{International Workshop}} on {{Reacting Particle-Gas Systems}}},
+  langid = {english},
+  file = {/home/szynka/Zotero/storage/UEA3H2QG/Dullien - 1979 - Porous media fluid transport and pore structure.pdf}
+}
+
+@online{sadowskiAnalysisCommutationError2021,
+  title = {Analysis of the Commutation Error of Filtering Operators for the Double-Averaged Equations of Flows in Porous Media in a {{LES}} Formalism},
+  author = {Sadowski, W. and family=Mare, given=F., prefix=di, useprefix=true and Marschall, H.},
+  date = {2021-10-31},
+  eprint = {2111.00584},
+  eprinttype = {arXiv},
+  eprintclass = {physics},
+  url = {http://arxiv.org/abs/2111.00584},
+  urldate = {2022-11-02},
+  abstract = {The continuum approach employing porous media models is an attractive solution method in the area of Computational Fluid Dynamics (CFD) simulation of fixed-bed reactors due to its robustness and efficiency. This paper applies the double-averaging methodology to refine the mathematical basis for the continuum approach, opening a way to alleviate its main limitations: space-invariant averaging volume and inaccurate treatment of the porous/non-porous interface. The averaging operator is recast as a general space-time filter and a detailed analysis of commutation errors using a classic Large Eddy Simulation (LES) formalism is performed. An explicit filtering framework has been implemented in the open-source CFD library OpenFOAM to carry out an a-priori evaluation of the unclosed terms appearing in the Double-Averaged Navier-Stokes equations also considering a space-varying filter width. A fully resolved simulation of the flow around a single, stationary particle has been conducted to allow an a-priori evaluation of the unclosed terms and, a solver for the double-averaged Navier-Stokes equations (DANS) has been developed to assess the magnitude of the error associated with their neglection using their computed distribution. Very encouraging results have been obtained with a stronger sensitivity being observed in proximity of sharp variations of the filter width. The significance of commutation error terms is also discussed and assessed.},
+  langid = {english},
+  pubstate = {prepublished},
+  keywords = {Physics - Fluid Dynamics},
+  file = {/home/szynka/Zotero/storage/2WV6CF9Y/Sadowski et al. - Analysis of the commutation error of filtering ope.pdf;/home/szynka/Zotero/storage/XAS34BNA/Sadowski et al. - 2021 - Analysis of the commutation error of filtering ope.pdf}
+}
+
+@article{sayyari,
+  title = {{{LARGE-EDDY SIMULATION OF FLOW IN IRREGULARLY SHAPED POROUS MATRIX}}},
+  author = {Sayyari, M and Sadowski, W and Mortazavian, J and family=Mare, given=F, prefix=di, useprefix=true},
+  langid = {english},
+  file = {/home/szynka/Zotero/storage/B5YXLE6K/Sayyari et al. - LARGE-EDDY SIMULATION OF FLOW IN IRREGULARLY SHAPE.pdf}
+}
+
+@article{schulze,
+  title = {Effects of {{Streamwise Oriented Riblets}} on an {{LPT Blade}}: {{A Numerical Study}}},
+  author = {Schulze, Sebastian and Presti, Federico Lo and Sadowski, Wojciech and family=Mare, given=Francesca, prefix=di, useprefix=true},
+  abstract = {The flexible use of hydrogen in energy storage and conversion applications necessitates machines with many axial stages. The cost challenges of blade production for multi-stage machines can be alleviated by the use of the recent advancements in manufacturing technologies, such as additive manufacturing and milling. This study analyses the effects of the surface features introduced by the new manufacturing technologies, which are often neglected or simplified in numerical simulations. The investigation focuses on the aft-loaded blade profile, T106RUB, which has been modified to match the characteristics of the original T106 profile under low-speed conditions. Additionally, the blade surface has been modified to feature streamwise oriented riblets, thereby modelling the influence of the manufacturing process. The T106RUBprofile, previously studied both in experimental and simulated capacity, provides a strong reference for analysing the riblets’ effects. The investigation is carried out using highly-resolved Large Eddy Simulations (LES) using SharC in-house solver. Results are compared with a smooth T106RUBprofile, focusing on time-averaged quantities like wall shear stress and the overlaying 3D flow structures using the Q-Criterion. The results reveal the formation of counter-rotating elongated vortices influenced by rib structures and free stream turbulence. The ribs have a counteracting effect on the wall shear stress for the pressure and suction sides, which is more pronounced on the pressure side while the suction side remains largely unaffected.},
+  langid = {english},
+  file = {/home/szynka/Zotero/storage/FGGQ2YI4/Schulze et al. - Effects of Streamwise Oriented Riblets on an LPT Blade A Numerical Study.pdf}
+}
+
+@article{suga2010,
+  title = {Effects of Wall Permeability on Turbulence},
+  author = {Suga, K. and Matsumura, Y. and Ashitaka, Y. and Tominaga, S. and Kaneda, M.},
+  date = {2010-12},
+  journaltitle = {International Journal of Heat and Fluid Flow},
+  shortjournal = {International Journal of Heat and Fluid Flow},
+  volume = {31},
+  number = {6},
+  pages = {974--984},
+  issn = {0142727X},
+  doi = {10.1016/j.ijheatfluidflow.2010.02.023},
+  url = {https://linkinghub.elsevier.com/retrieve/pii/S0142727X10000561},
+  urldate = {2022-01-02},
+  abstract = {In order to understand the effects of the wall permeability on turbulence near a porous wall, flow field measurements are carried out for turbulent flows in a channel with a porous bottom wall by a two-component particle image velocimetry (PIV) system. The porous media used are three kinds of foamed ceramics which have almost the same porosity (\$0.8) but different permeability. It is confirmed that the flow becomes more turbulent over the porous wall and tends to be turbulent even at the bulk Reynolds number of Reb ¼ 1300 in the most permeable wall case tested. Corresponding to laminar to turbulent transition, the magnitude of the slip velocity on the porous wall is found to increase drastically in a narrow range of the Reynolds number. To discuss the effects of the wall roughness and the wall permeability, detailed discussions are made of zero-plane displacement and equivalent wall roughness for porous media. The results clearly indicate that the turbulence is induced by not only the wall roughness but the wall permeability. The measurements have also revealed that as Reb or the wall permeability increases, the wall normal fluctuating velocity near the porous wall is enhanced due to the effects of the wall permeability. This leads to the increase of the turbulent shear stress resulting in higher friction factors of turbulence over porous walls.},
+  langid = {english},
+  file = {/home/szynka/Zotero/storage/MUZ5RXLR/Suga et al. - 2010 - Effects of wall permeability on turbulence.pdf}
+}
+
+@article{velten2023,
+  title = {Flow {{Field Characterisation}} of {{Gaseous Flow}} in a {{Packed Bed}} by {{Particle Image Velocimetry}}},
+  author = {Velten, C. and Zähringer, K.},
+  date = {2023-08-26},
+  journaltitle = {Transport in Porous Media},
+  shortjournal = {Transp Porous Med},
+  issn = {0169-3913, 1573-1634},
+  doi = {10.1007/s11242-023-02010-7},
+  url = {https://link.springer.com/10.1007/s11242-023-02010-7},
+  urldate = {2023-09-29},
+  abstract = {Packed beds with gaseous flow are used in many industrial processes with high energy and resource consumption. This study provides velocity data of the gas flow through a model packed bed of 40 mm spheres arranged in body centred cubic packing obtained by Particle Image Velocimetry to allow for validation of numerical calculations which are often used for process optimization. Results are presented exemplarily for a particle Reynolds number range from 200 to 500. The flow fields are discussed in terms of inlet conditions to the empty reactor, symmetry and height independent flow structure above the bed and measurements in the optically accessible interstices of the bed. The measurement of a sufficient number of snap-shots for each measurement condition and location allowed also for the determination of the turbulent kinetic energy. Above the bed, low frequency oscillations of the flow are observed, that increase with the Reynolds number. In the interior of the bed, fluctuations are much less pronounced. The appearing flow structures are not significantly influenced by different particle Reynolds numbers, but the velocity magnitude changes.},
+  langid = {english},
+  file = {/home/szynka/Zotero/storage/ITK53KAT/Velten and Zähringer - 2023 - Flow Field Characterisation of Gaseous Flow in a P.pdf}
+}
